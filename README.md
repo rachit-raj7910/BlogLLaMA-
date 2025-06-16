@@ -26,6 +26,33 @@ Blog/
 │ ├── llama-2-7b-chat.ggmlv3.q8_0.bin # The quantized LLaMA model
 ├── Blog.py # Main Streamlit app
 ├── README.md # Project documentation
+```
+blog-generation-app/
+│
+├── model/
+│   └── llama-2-7b-chat.ggmlv3.q8_0.bin  # The quantized LLaMA Model
+│
+├── app.py                                # Main application script
+│
+├── requirements.txt                      # Required Python packages
+│
+└── README.md                             # Project documentation
+```
+```
+blog-generation-app/
+│
+├── model/
+│   ├── llama_model.py                     # Model logic (loads and queries LLaMA 2)
+│   └── llama-2-7b-chat.ggmlv3.q8_0.bin    # The quantized LLaMA 2 model file
+│
+├── Blog.py                                 # Main Streamlit application script
+│
+├── requirements.txt                       # Required Python packages
+│
+└── README.md                              # Project documentation (this file)
+
+
+
 
 ## Prerequisites
 - Python 3.8 or higher (3.10.0 used by me)
