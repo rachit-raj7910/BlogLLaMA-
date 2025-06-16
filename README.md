@@ -58,3 +58,6 @@ conda activate bloggen
 # Install dependencies
 pip install -r requirements.txt
 
+## Contributing
+We welcome contributions to improve this project! Whether it's fixing a bug, improving performance, or adding a new feature — your help is appreciated.
+
