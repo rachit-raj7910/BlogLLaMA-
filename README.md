@@ -20,7 +20,6 @@ This is a **Streamlit-based web app** that generates blog posts using the **LLaM
 3. The response is displayed in the Streamlit interface with the option to download the result
 
 ##  File Structure
-```
 Blog-generation-app/
 │
 ├── model/
@@ -33,18 +32,13 @@ Blog-generation-app/
 │
 └── README.md                              # Project documentation (this file)
 
-
-
-
 ## Prerequisites
 - Python 3.8 or higher (3.10.0 used by me)
 - Streamlit
 - langchain
 - ctransformers
-
----
-
-## 🔧 Installation
+  
+## Installation
 
 ```bash
 # Clone the repository
