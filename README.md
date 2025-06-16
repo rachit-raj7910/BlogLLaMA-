@@ -32,7 +32,7 @@ Blog-generation-app/
 ├── requirements.txt                       # Required Python packages
 │
 └── README.md                              # Project documentation (this file)
-
+```
 ## Prerequisites
 - Python 3.8 or higher (3.10.0 used by me)
 - Streamlit
@@ -52,7 +52,7 @@ conda activate bloggen
 
 # Install dependencies
 pip install -r requirements.txt
-
+```
 ## Contributing
 We welcome contributions to improve this project! Whether it's fixing a bug, improving performance, or adding a new feature — your help is appreciated.
 
