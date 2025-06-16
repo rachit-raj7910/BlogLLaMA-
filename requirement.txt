@@ -1,1 +1,16 @@
+# Core dependencies
+streamlit
+langchain
+ctransformers
+uvicorn
+
+# Supporting libraries
+python-box
+sentence-transformers
+
+# Optional but recommended
+numpy
+scikit-learn
+transformers
+torch
 
