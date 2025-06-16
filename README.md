@@ -20,26 +20,8 @@ This is a **Streamlit-based web app** that generates blog posts using the **LLaM
 3. The response is displayed in the Streamlit interface with the option to download the result
 
 ##  File Structure
-Blog/
-├── model/
-│ ├── llama_model.py # Model logic (loads and queries LLaMA 2)
-│ ├── llama-2-7b-chat.ggmlv3.q8_0.bin # The quantized LLaMA model
-├── Blog.py # Main Streamlit app
-├── README.md # Project documentation
 ```
-blog-generation-app/
-│
-├── model/
-│   └── llama-2-7b-chat.ggmlv3.q8_0.bin  # The quantized LLaMA Model
-│
-├── app.py                                # Main application script
-│
-├── requirements.txt                      # Required Python packages
-│
-└── README.md                             # Project documentation
-```
-```
-blog-generation-app/
+Blog-generation-app/
 │
 ├── model/
 │   ├── llama_model.py                     # Model logic (loads and queries LLaMA 2)
