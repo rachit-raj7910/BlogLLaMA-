@@ -20,6 +20,7 @@ This is a **Streamlit-based web app** that generates blog posts using the **LLaM
 3. The response is displayed in the Streamlit interface with the option to download the result
 
 ##  File Structure
+```
 Blog-generation-app/
 │
 ├── model/
