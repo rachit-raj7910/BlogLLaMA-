@@ -2,16 +2,23 @@
 # 📝 AI Blog Generator with LLaMA 2
 
 This is a **Streamlit-based web app** that generates blog posts using the **LLaMA 2 model**. Users can input a topic, choose a blog style, and set the word count — and the app will generate a professional, casual, humorous, or technical blog post using the LLaMA 2 language model.
+
  **Generates blogs on any topic with a specified word count and audience tone.**
 ![Screenshot 2025-06-16 141711](https://github.com/user-attachments/assets/0c08753c-469a-41c0-bcdb-504d52ba58f5)
+ **Generates blog posts on any topic — from deeply technical to hilariously relatable**
+![Screenshot 2025-06-16 142650](https://github.com/user-attachments/assets/07dc13ae-6c77-4c1d-83f9-cd8a6111b6b5)
+
+![Screenshot 2025-06-16 143204](https://github.com/user-attachments/assets/9050d6a2-fca1-4d71-9147-9b6e7140060b)
 
 ## Features
-
 - Generate blog posts on any topic
 - Choose word count (50–2000)
 - Select tone/style: Professional, Casual, Humorous, Technical
 - Runs locally using the `llama-2-7b-chat.ggmlv3.q8_0.bin` model
 - Clean and interactive Streamlit UI
+  
+**It can even generate casual blogs with a relaxed, conversational tone**
+  ![Screenshot 2025-06-16 142230](https://github.com/user-attachments/assets/3bf9d80b-f4aa-4327-942e-498e19f3c371)
 
 ##  How It Works
 1. The user enters:
@@ -41,20 +48,13 @@ Blog-generation-app/
 - langchain
 - ctransformers
   
-## Installation
+## Model Set-up
+This project uses the `llama-2-7b-chat.ggmlv3.q8_0.bin` model — a quantized version of Meta's LLaMA 2 with 7 billion parameters — to generate high-quality, contextually relevant blog content. To set it up, simply download the model file from [Hugging Face](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main), place it in the `models/ directory`, and ensure your code points to `models/llama-2-7b-chat.ggmlv3.q8_0.bin`. The `ggmlv3.q8_0` variant is optimized for efficiency, offering reduced memory usage, faster execution on local machines, and strong performance without requiring a GPU — making it ideal for fast, local blog generation tasks.
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/blog-generator-llama2.git
-cd blog-generator-llama2
 
-# Create virtual environment
-conda create -n bloggen python=3.9
-conda activate bloggen
+## Usage
+To use the blog generator, simply run `streamlit run Blog.py` from the project directory. The Streamlit interface will open in your browser, where you can enter a blog topic, specify the desired word count, and select the target blog style from a dropdown menu (such as Professional, Casual, Technical and Humorous). Once you click the "Generate" button, the application will process your input using the LLaMA 2 model and display a complete blog post tailored to your preferences — right on the screen.
 
-# Install dependencies
-pip install -r requirements.txt
-```
 ## Contributing
 We welcome contributions to improve this project! Whether it's fixing a bug, improving performance, or adding a new feature — your help is appreciated.
 
